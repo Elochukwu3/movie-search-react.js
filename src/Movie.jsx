@@ -6,7 +6,7 @@ import Mapmovie from "./Mapmovie";
 
 function Movie() {
   const [content, setContent] = useState("");
-  // const [movie, setMovie] = useState([]);
+  const [movie, setMovie] = useState([]);
 
 
   function ChangeValue(e) {
