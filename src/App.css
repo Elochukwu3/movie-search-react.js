@@ -14,7 +14,7 @@
 
 body {
   font-family: var(--font-roboto);
-  background-color: #212426;
+  background-color: #003253d1;
 }
 
 .app {
@@ -56,9 +56,9 @@ body {
   justify-content: center;
   padding: .7rem 1rem;
   border-radius: 3rem;
-  background: #1f2123;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
+  background:  #003253d1;
+  -webkit-box-shadow: 5px 5px 7px  #003253d1 -5px -5px 7px  #003253d1;
+  box-shadow: 5px 5px 7px  #003253d1, -5px -5px 7px  #094166d1;
 }
 
 .searchHolder input {
@@ -70,8 +70,8 @@ body {
   padding-right: 1rem;
 
   outline: none;
-  color: #a1a1a1;
-  background: #1f2123;
+  color:snow;
+  background:  #003253d1;
 }
 
 .searchHolder button {
@@ -132,8 +132,8 @@ body {
 }
 
 .movie:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
-  transform: scale(1.05, 1.05);
+  box-shadow: 0px 30px 18px -8px rgba(0, 50, 83, 0.1);
+  transform: scale(1.03, 1.03);
 }
 
 .movie div:nth-of-type(2) {
