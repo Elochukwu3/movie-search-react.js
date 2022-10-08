@@ -1,13 +1,12 @@
 import React from "react";
 
-// const val = <div style={{ color: "white", fontsize: "2rem" }}>Hello world</div>;
-function Mapmovie({ movieName: {Year, Poster, Title, Type } }) {
+
+function Mapmovie({ movieName: { Year, Poster, Title, Type } }) {
   return (
-    <div >
+    <div>
       <div className="movie">
         <div>
           <p>{Year}</p>
-          {/* <p> {val}</p> */}
         </div>
         <div>
           <img
