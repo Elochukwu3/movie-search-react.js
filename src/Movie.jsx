@@ -14,8 +14,7 @@ function Movie() {
   }
 
   useEffect(() => {
-    // searchMovieApi(content.length ? content : "batman");
-    searchMovieApi("batman");
+    searchMovieApi("love");
   }, []);
 
   async function searchMovieApi(title) {
@@ -53,7 +52,7 @@ function Movie() {
             </div>
           ) : (
             <div className="empty">
-              <h2>No movies found</h2>
+              <h2> movies Not found</h2>
             </div>
           )}
         </section>
