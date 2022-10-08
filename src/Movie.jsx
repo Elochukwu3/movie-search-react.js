@@ -15,7 +15,7 @@ function Movie() {
 
   useEffect(() => {
     // searchMovieApi(content.length ? content : "batman");
-    searchMovieApi("kings");
+    searchMovieApi("love");
   }, []);
 
   async function searchMovieApi(title) {
@@ -24,7 +24,7 @@ function Movie() {
     const data = await response.json();
     setMovie(data.Search);
   }
-  
+
 
   return (
     <div>
